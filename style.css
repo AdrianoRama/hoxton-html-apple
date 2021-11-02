@@ -1,0 +1,573 @@
+* {
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+
+body{
+    height: 100%;
+    width: 100%;
+}
+
+html {
+    
+    overflow-y: scroll;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+header{
+    background: #333333;
+    display: grid;
+  justify-content: center;
+backdrop-filter: blur(rem);
+width: 100%;
+
+}
+
+header nav ul {
+    font-size: 11px;
+    list-style: none;
+    display: grid;
+    grid-auto-flow: column;
+    align-items: center;
+    gap: 2.5rem;
+  }
+
+  header nav ul a{
+      text-decoration: none;
+      color: #ffffffaa;
+  }
+
+  header nav ul a:hover{
+    text-decoration: none;
+    color: white;
+}
+
+main .holidays{
+    text-align: center;
+    padding: 0.8rem;
+    background-color: #e34140;
+    color: white;
+    font-size: 0.9rem;
+    font-weight: 490;
+    backdrop-filter: blur(2rem);
+    width: 100%;
+}
+
+main .holidays a{
+    text-decoration: none;
+    color: white;
+}
+
+main .iphone-13{
+    background-image: url(/images/pro-13.jpg);
+    background-size: cover;
+    background-position: center;
+    height: 600px;
+    text-align: center;
+    padding: 2rem;
+    position: relative; 
+    width: 100%;
+}
+
+main .iphone-13 h2 {
+    font-size: 3.4rem;
+    font-weight: 630;
+  }
+  
+  main .iphone-13 h3 {
+    font-size: 1.7rem;
+    font-weight: 400;
+    margin-bottom: 0.5em;
+  }
+
+main .iphone-13 ul {
+    list-style: none;
+    font-size: 1.4rem;
+    display: grid;
+    grid-auto-flow: column;
+    justify-content: center;
+    gap: 2rem;
+}
+
+  main .iphone-13 a{
+      text-decoration: none;
+      color: #1271cf;
+  }
+
+  main .iphone-13 a:hover{
+    text-decoration: underline;
+}
+
+main .iphone-13-rose{
+    margin-top: 0.8rem;
+    background-image: url(/images/rose.jpg);
+    background-size: cover;
+    background-position: center;
+    height: 600px;
+    text-align: center;
+    padding: 2rem;
+    position: relative;
+    width: 100%;
+}
+
+main .iphone-13-rose h2 {
+    font-size: 3.4rem;
+    font-weight: 630;
+    color: white;
+  }
+  
+  main .iphone-13-rose h3 {
+    font-size: 1.7rem;
+    font-weight: 400;
+    margin-bottom: 0.5em;
+    color: #ffbffa;
+  }
+
+main .iphone-13-rose ul {
+    list-style: none;
+    font-size: 1.4rem;
+    display: grid;
+    grid-auto-flow: column;
+    justify-content: center;
+    gap: 2rem;
+}
+
+  main .iphone-13-rose a{
+      text-decoration: none;
+      color: #217ad3;
+  }
+
+  main .iphone-13-rose a:hover{
+    text-decoration: underline;
+}
+
+main .MacBook-Pro{
+    margin-top: 0.8rem;
+    background-image: url(/images/Mac.jpg);
+    background-size: cover;
+    background-position: center;
+    height: 600px;
+    text-align: center;
+    padding: 2rem;
+    position: relative; 
+    width: 100%;
+}
+
+main .MacBook-Pro h2 {
+    font-size: 3.4rem;
+    font-weight: 630;
+    color: rgb(0, 0, 0);
+  }
+  
+  main .MacBook-Pro h3 {
+    font-size: 1.7rem;
+    font-weight: 400;
+    margin-bottom: 0.5em;
+    color: #000000;
+  }
+
+main .MacBook-Pro ul {
+    list-style: none;
+    font-size: 1.4rem;
+    display: grid;
+    grid-auto-flow: column;
+    justify-content: center;
+    gap: 2rem;
+}
+
+  main .MacBook-Pro a{
+      text-decoration: none;
+      color: #217ad3;
+  }
+
+  main .MacBook-Pro a:hover{
+    text-decoration: underline;
+}
+
+#pods{
+    display: grid;
+    grid-template-columns: 49% 49%;
+    gap: 0.8rem;
+    margin-top: 0.8rem;
+    
+}
+
+.homepods{
+    background-image: url(/images/homepod.jpg);
+    height: 600px;
+    margin-left: 1rem;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+main .homepods h2 {
+    margin-top: 2rem;
+    font-size: 2.5rem;
+    font-weight: 630;
+    color: rgb(0, 0, 0);
+    text-align: center;
+  }
+
+main .homepods ul {
+    list-style: none;
+    font-size: 1.1rem;
+    display: grid;
+    grid-auto-flow: column;
+    justify-content: center;
+    gap: 2rem;
+}
+
+  main .homepods a{
+      text-decoration: none;
+      color: #217ad3;
+  }
+
+  main .homepods a:hover{
+    text-decoration: underline;
+}
+
+.airpods{
+    background-color: blue;
+    background-image: url(/images/airpods.jpg);
+    height: 600px;
+    background-repeat: no-repeat;
+    object-fit: cover;
+    background-size: cover;
+}
+
+main .airpods h2 {
+    margin-top: 2rem;
+    font-size: 2.5rem;
+    font-weight: 630;
+    color: rgb(0, 0, 0);
+    text-align: center;
+    margin-top: 28rem;
+  }
+  
+  main .airpods h3 {
+    font-size: 1.3rem;
+    font-weight: 400;
+    margin-bottom: 0.5em;
+    color: #000000;
+    text-align: center;
+  }
+
+main .airpods ul {
+    list-style: none;
+    font-size: 1.1rem;
+    display: grid;
+    grid-auto-flow: column;
+    justify-content: center;
+    gap: 2rem;
+}
+
+  main .airpods a{
+      text-decoration: none;
+      color: #217ad3;
+  }
+
+  main .airpods a:hover{
+    text-decoration: underline;
+}
+
+#watches{
+    display: grid;
+    grid-template-columns: 49% 49%;
+    gap: 0.8rem;
+    margin-top: 0.8rem;
+    
+}
+
+.series-7{
+    background-image: url(/images/series-7.jpg);
+    height: 600px;
+    margin-left: 1rem;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+ .series-7 p{
+     color: #cb6e36;
+     text-align: center;
+     margin-bottom: -1.5rem;
+     font-size: 0.8rem;
+     margin-top: 2rem;
+ }
+
+ .series-7 h4{
+     color: #d24147;
+     text-align: center;
+     margin-top: -0.3rem;
+ }
+
+ .series-7 img{
+    margin-left: 15rem;
+    width: 10rem;
+    position: relative;
+    margin-top: 2rem;    
+ }
+
+  .series-7 h3 {
+    font-size: 1.3rem;
+    font-weight: 400;
+    margin-bottom: 0.5em;
+    color: #000000;
+    text-align: center;
+  }
+
+ .series-7 ul {
+    list-style: none;
+    font-size: 1.1rem;
+    display: grid;
+    grid-auto-flow: column;
+    justify-content: center;
+    gap: 2rem;
+}
+
+   .series-7 a{
+      text-decoration: none;
+      color: #217ad3;
+  }
+
+   .series-7 a:hover{
+    text-decoration: underline;
+}
+
+.arcade{
+    background-image: url(/images/arcade.jpg);
+    height: 600px;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.arcade img{
+ margin-left: 15rem;
+ width: 10rem;
+ position: relative;
+ margin-top: 3.5rem;
+}
+
+
+  .arcade h3 {
+    font-size: 1.3rem;
+    font-weight: 400;
+    margin-bottom: 0.5em;
+    color: #000000;
+    text-align: justify;
+    display: grid;
+    grid-template-columns: minmax(5ch, 37ch);
+    justify-content: center;
+  }
+
+ .arcade ul {
+    list-style: none;
+    font-size: 1.1rem;
+    display: grid;
+    grid-auto-flow: column;
+    justify-content: center;
+    gap: 2rem;
+}
+
+   .arcade a{
+      text-decoration: none;
+      color: #217ad3;
+  }
+
+   .arcade a:hover{
+    text-decoration: underline;
+}
+
+
+#cards{
+    display: grid;
+    grid-template-columns: 49% 49%;
+    gap: 0.8rem;
+    margin-top: 0.8rem;
+    
+}
+
+.card{
+    background-image: url(/images/cardpic.jpg);
+    height: 600px;
+    margin-left: 1rem;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.card img{
+    margin-left: 17rem;
+    width: 10rem;
+    position: relative;
+    margin-top: 3.5rem;
+   }
+   
+   
+     .card h3 {
+       font-size: 1.3rem;
+       font-weight: 400;
+       margin-bottom: 0.5em;
+       color: #000000;
+       text-align: justify;
+       display: grid;
+       grid-template-columns: minmax(5ch, 25ch);
+       justify-content: center;
+     }
+   
+    .card ul {
+       list-style: none;
+       font-size: 1.1rem;
+       display: grid;
+       grid-auto-flow: column;
+       justify-content: center;
+       gap: 2rem;
+   }
+   
+      .card a{
+         text-decoration: none;
+         color: #217ad3;
+     }
+   
+      .card a:hover{
+       text-decoration: underline;
+   }
+
+   
+.tvplus{
+    background-image: url(/images/swaggerpic.jpg);
+    height: 600px;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.tvplus .plus img{
+    margin-left: 18rem;
+    width: 5rem;
+    position: relative;
+    margin-top: 24rem;
+    margin-bottom: -5rem;
+   }
+
+   .tvplus .swag img{
+    margin-left: 8.2rem;
+    width: 25rem;
+    position: relative;
+    margin-top: 3.5rem;
+    margin-bottom: -1rem;
+   }
+   
+   
+     .tvplus h3 {
+       font-size: 1.3rem;
+       font-weight: 400;
+       margin-bottom: 0.5em;
+       color: #ffffff;
+       text-align: center;
+
+     }
+   
+    .tvplus ul {
+       list-style: none;
+       font-size: 1.1rem;
+       display: grid;
+       grid-auto-flow: column;
+       justify-content: center;
+       gap: 2rem;
+   }
+   
+      .tvplus a{
+         text-decoration: none;
+         color: #217ad3;
+     }
+   
+      .tvplus a:hover{
+       text-decoration: underline;
+   }
+
+   footer {
+       height: 100vh;
+       background-color: #f5f5f7;
+       display: grid;
+       justify-content: center;
+    
+   }
+
+   .container{
+       display: grid;
+       background-color: #f5f5f7;
+       width: 66vw; 
+   }
+
+   .container p{
+       margin-top: 0.5rem;
+       color: #707075;
+       font-size: 0.8rem;
+   }
+
+   .container .f{
+       margin-bottom: 1.5rem;
+   }
+
+   .teksti-2{
+       display: grid;
+       grid-auto-flow: column;
+
+   }
+
+   .teksti-2 h5{
+    margin-top: 1rem;
+    font-size: 0.8rem;
+    font-weight: 500;
+   }
+
+   .teksti-2 a{
+       display: block;
+       text-decoration: none;
+       color: #6d6d70;
+       font-size: 0.7rem;
+       font-weight: 500;
+       margin-top: 0.5rem;
+   }
+
+   .teksti-2 a:hover{
+       text-decoration: underline;
+   }
+
+.teksti-3 p{
+    font-size: 0.7rem;
+    margin-bottom: 0.5rem;
+}
+
+   .teksti-3 a{
+       text-decoration: none;
+       color: #217ad3;
+   }
+
+
+
+ .teksti-4{
+    display: grid;
+    background-color: #f5f5f7;
+    width: 66vw; 
+    grid-auto-flow: column;
+ }
+
+ .teksti-4 p{
+     font-size: 0.7rem;
+     margin-bottom: 1.5rem;
+     margin-top: -0.1rem;
+ }
+
+ .fundi-6{
+     margin-left: 10rem;
+     margin-right: -1.5rem;
+ }
+
+ .teksti-4 a{
+     text-decoration: none;
+     color: #6d6d70;
+ }
+
+ .teksti-4 a:hover{
+     text-decoration: underline;
+ }
